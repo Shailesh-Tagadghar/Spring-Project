@@ -1,10 +1,8 @@
 package com.example.book.Service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.example.book.Model.Book;
 import com.example.book.Model.User;
 import com.example.book.Repository.BookRepository;
@@ -13,7 +11,7 @@ import com.example.book.Repository.UserRepository;
 @Service
 public class BookService {
 	
-	@Autowired
+    @Autowired
     private BookRepository bookRepository;
 
     @Autowired
