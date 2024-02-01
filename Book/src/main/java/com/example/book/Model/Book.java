@@ -63,5 +63,4 @@ public class Book {
 	public void setBorrowedBy(User borrowedBy) {
 		this.borrowedBy = borrowedBy;
 	}
-	
 }
